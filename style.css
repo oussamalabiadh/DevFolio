@@ -1,0 +1,421 @@
+/*=========================generale==============================*/
+
+.line{
+    width: 80px;
+    height: 3px ;
+    background-color: #0078FF;
+}
+.main-title{
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px ;
+}
+.main-title h2{
+    font-weight: 700;
+    font-size: 55px;
+
+}
+
+.main-title::after{
+    content: '';
+    position: absolute;
+    top: calc(100%+20px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 4px ;
+    background-color: #0078FF;
+}
+/*==========================star section home ===============================*/
+.nav-link,.navbar-nav .nav-link.active{
+    color: white;
+   
+}
+.nav-link {
+    position: relative;
+    padding-right: 20px !important;
+ }
+ 
+ .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: width 0.5s;
+ }
+ 
+ .nav-link.active::before {
+    width: 50px;
+ }
+#home{
+    background: url(images/hero-bg.jpg) center fixed no-repeat;
+    background-size: cover;
+}
+#home p::before{
+    content:'';
+    animation: devfolio 10s infinite alternate;
+}
+@keyframes devfolio {
+    0%{
+        content: 'D|';
+    }
+    1%{
+        content: 'De|';
+    }
+    2%{
+        content: 'Dev|';
+    } 3%{
+        content: 'Deve|';
+    } 4%{
+        content: 'Devel|';
+    } 5%{
+        content: 'Develo|';
+    } 6%{
+        content: 'Develop|';
+    } 7%{
+        content: 'Develope|';
+    } 8%{
+        content: 'Developer|';
+    } 9%{
+        content: 'Develope|';
+    } 10%{
+        content: 'Develop|';
+    } 11%{
+        content: 'Develo|';
+    } 12%{
+        content: 'Devel|';
+    } 13%{
+        content: 'Deve|';
+    } 14%{
+        content: 'Dev|';
+    } 15%{
+        content: 'De|';
+    } 16%{
+        content: 'D|';
+    } 17%{
+        content: '|';
+    } 
+    18%{
+        content: '|';
+    } 19%{
+        content: '|';
+    } 20%{
+        content: '|';
+    } 21%{
+        content: '|';
+    } 22%{
+        content: '|';
+    } 
+    23%{
+        content: 'F|';
+    } 24%{
+        content: 'Fr|';
+    } 25%{
+        content: 'Fre|';
+    } 26%{
+        content: 'Free|';
+    } 27%{
+        content: 'Freel|';
+    } 28%{
+        content: 'Freela|';
+    } 29%{
+        content: 'Freelan|';
+    } 30%{
+        content: 'Freelanc|';
+    } 31%{
+        content: 'Freelance|';
+    } 32%{
+        content: 'Freelancer|';
+    } 33%{
+        content: 'Freelance|';
+    } 34%{
+        content: 'Freelanc|';
+    } 35%{
+        content: 'Freelan|';
+    } 36%{
+        content: 'Freela|';
+    } 37%{
+        content: 'Freel|';
+    } 38%{
+        content: 'Free|';
+    } 39%{
+        content: 'Fre|';
+    } 40%{
+        content: 'Fr|';
+    }41%{
+        content: 'F|';
+    } 42%{
+        content: '|';
+    } 
+    43%{
+        content: '|';
+    } 44%{
+        content: '|';
+    } 45%{
+        content: '|';
+    } 46%{
+        content: '|';
+    } 47%{
+        content: '|';
+    } 
+    48%{
+        content: 'P|';
+    } 49%{
+        content: 'Ph|';
+    }50%{
+        content: 'Pho|';
+    }51%{
+        content: 'Phot|';
+    }52%{
+        content: 'Photo|';
+    } 53%{
+        content: 'Photog|';
+    } 54%{
+        content: 'Photogr|';
+    } 55%{
+        content: 'Photogra|';
+    } 56%{
+        content: 'Photograp|';
+    } 57%{
+        content: 'Photograph|';
+    } 58%{
+        content: 'Photographe|';
+    } 59%{
+        content: 'Photographer|';
+    } 60%{
+        content: 'Photographe|';
+    } 61%{
+        content: 'Photograph|';
+    } 62%{
+        content: 'Photograp|';
+    } 63%{
+        content: 'Photogra|';
+    } 64%{
+        content: 'Photogr|';
+    } 65%{
+        content: 'Photog|';
+    } 66%{
+        content: 'Photo|';
+    } 67%{
+        content: 'Phot|';
+    } 68%{
+        content: 'Pho|';
+    } 69%{
+        content: 'Ph|';
+    } 71%{
+        content: 'P|';
+    } 72%{
+        content: '|';
+    } 
+    73%{
+        content: '|';
+    }  74%{
+        content: '|';
+    }  75%{
+        content: '|';
+    }  76%{
+        content: '|';
+    }  77%{
+        content: '|';
+    } 
+    78%{
+        content: 'D|';
+    }79%{
+        content: 'De|';
+    }80%{
+        content: 'Des|';
+    }81%{
+        content: 'Desi|';
+    }82%{
+        content: 'Desig|';
+    }83%{
+        content: 'Design|';
+    }84%{
+        content: 'Designe|';
+    }85%{
+        content: 'Designer|';
+    }86%{
+        content: 'Designe|';
+    }87%{
+        content: 'Design|';
+    }88%{
+        content: 'Desig|';
+    }89%{
+        content: 'Desi|';
+    }90%{
+        content: 'Des|';
+    }91%{
+        content: 'De|';
+    }92%{
+        content: 'D|';
+    }93%{
+        content: '|';
+    }
+    94%{
+        content: '|';
+    }95%{
+        content: '|';
+    }96%{
+        content: '|';
+    }97%{
+        content: '|';
+    }98%{
+        content: '|';
+    }99%{
+        content: '|';
+    }100%{
+        content: '|';
+    }
+    
+}
+/*==============================end section home ==========================*/
+/*============================star section about =============================*/
+/*============================end section about ============================*/
+/*============================star section services============================*/
+.services .card span{
+ display: flex;
+ width: 100px;
+ height: 100px ;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ font-size: 30px ;
+ box-shadow: 0 0 0 8px #0078FF;
+ transition: all .5s;
+ margin-bottom: 10px ;
+}
+.services .card{
+    padding: 15px ;
+}
+.services .card:hover span{
+    background-color: #0078FF;
+    box-shadow: 0 0 0 8px #0077ff33;
+    color: white;
+}
+.services .counter {
+    background: url("images/counters-bg.jpg") center fixed no-repeat;
+    background-size: cover;
+ }
+ 
+ .services .counter .layer {
+    background-color: #0078FF;
+    opacity: .7;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+ }
+ 
+ .services .counter .layer span {
+    outline: 10px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 30px auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ }
+/*=======================end section services========================= */
+/* <!-- =========== Start PORTFOLIO   =========== --> */
+
+.portfolio .card .icon {
+    width: 50px;
+    height: 50px ;
+    color: #0078FF;
+    border: 5px solid #0078FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.portfolio .card img {
+    filter: grayscale(100%);
+    transition: all 0.5s;
+ }
+ 
+ .portfolio .card:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.2);
+ }
+ /* <!-- =========== End PORTFOLIO   =========== --> */
+ /* =========== star section work  ===========*/
+ .slider {
+    background: url("images/overlay-bg.jpg") center fixed no-repeat;
+    background-size: cover;
+    padding-block: 0;
+ }
+ .slider .layer{
+    background-color: #0078FF;
+    min-height: 60vh;
+    opacity: .7;
+ }
+ 
+ .slider .carousel-indicators [data-bs-target] {
+    text-indent: unset;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+ }
+ 
+ .slider .carousel-indicators {
+    bottom: -50px;
+ }
+ 
+ .slider .carousel-item img,
+ .slider .carousel-item h3,
+ .slider .carousel-item p {
+    transform: scale(0);
+    transition: 1s;
+ }
+ 
+ .slider .carousel-item.active img,
+ .slider .carousel-item.active h3,
+ .slider .carousel-item.active p {
+    transform: scale(1);
+ }
+ /* =========== End section work   ===========*/
+ /* <!-- =========== Start Contact   =========== --> */
+.contact {
+    background: url("images/overlay-bg.jpg") center fixed no-repeat;
+    background-size: cover;
+ }
+ 
+ .contact .social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 0;
+
+ }
+ 
+ .contact .social li {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 5px #0078FF;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .5s;
+ }
+ .contact .social li:hover{
+   background-color: #0078FF;
+   color: #fff;
+   box-shadow: 0 0 0 5px #0077ff49;
+ }
+ /* <!-- =========== End Contact   =========== --> */
+ 
+ 
